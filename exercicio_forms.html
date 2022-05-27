@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cadastro da liga dos Astronautas</title>
+</head>
+<body>
+    <h3>Cadastro da liga dos Astronautas</h3>
+    <form action="https://www.example.com">
+    
+    <div>
+    <label for="name">Nome:</label>
+    <input type="text"  id="name" name="name">
+    </div>
+    <br>
+    <div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <label for="pwd">- Password:</label>
+    <input type="password" id="pwd" name="password">
+    </div>
+    <br>
+    <div>
+    <label for="birthday">Data de Nascimento:</label>
+    <input type="date"  name="birthday" id="birthday">
+    <label for="photo">- Foto:</label>
+    <input type="file" id="photo" name="photo">  
+    </div>
+    <br>    
+    <div>
+    <label for="nation">Nacionalidade:</label>
+    <select id="nation" name="nation">
+      <option value="russian">Russo</option>
+      <option value="american">Americano</option>
+      <option value="brasilian">Brasileiro</option>
+    </select> -
+    
+     Genero:
+    <label for="female">F</label>
+    <input type="radio" name="gender" id="female" value="female">
+    <label for="male">M</label>
+    <input type="radio" name="gender" id="male" value="male">
+    </div>
+    <br>
+    <div>
+    <label for="quality">Suas principais qualidades:</label><br>
+    <input type="checkbox" id="quality" name="quality">
+    <label for="quality"> Inteligência"</label>
+    <input type="checkbox" id="quality2" name="quality2">
+    <label for="quality2"> Resiliência</label>
+    <input type="checkbox" id="quality3" name="quality3">
+    <label for="quality"> Preparo Fisico</label>
+    <input type="checkbox" id="quality4" name="quality4">
+    <label for="quality4"> Educação</label><br><br>
+    </div>
+    <br>
+    <div>
+    <textarea name="message"  id="message"   rows="10" cols="30" placeholder="Porque você gostaria de ser uma astronauta?.">
+    </textarea>
+    </div>
+    <br>
+
+    <input type="submit" value="Criar">
+
+    </form>
+    
+</body>
+</html>
