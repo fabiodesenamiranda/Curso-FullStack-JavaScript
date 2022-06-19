@@ -30,7 +30,7 @@ function slowDown(velocity) {
     return newVelocity
 } 
 
-function printSpaceshipBoardDate(name, velocity) {
+function printSpaceshipBoardData(name, velocity) {
     alert("Espaçonave: " + name + "\nVelocidade: " + velocity + "km/s")
 }
  
