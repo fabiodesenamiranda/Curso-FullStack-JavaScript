@@ -25,4 +25,4 @@ let message = "Espaçonaves com mais de 9 tripulantes: " + crewGreaterThan9.join
 message += "\nPlataforma com processo de engate: " + (ongoingHitchPlataform + 1)
 message += "\nEspaçonaves destacadas: " + highlightedSpaceships.join(", ")
 
-alert(message)
+alert(message)k
