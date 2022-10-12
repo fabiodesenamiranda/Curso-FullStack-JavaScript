@@ -1,0 +1,19 @@
+
+.cor{
+    color:rgb(18, 200, 18)
+}
+
+.saber1{
+    color: red;
+    font-size: 20px;
+}
+
+
+.saber2{
+    color: blue;
+    font-size: 20px;
+}
+
+/*Classes em CSS são simplesmente seletores para estilizar elementos no HTML.
+ A sintaxe a ser utilizada é um ponto "." seguido de uma palavra-chave, 
+ e em seguida a definição dos estilos entre "{" e "}".
